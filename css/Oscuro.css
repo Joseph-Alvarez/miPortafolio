@@ -1,0 +1,56 @@
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode #modo-Claro i {
+    color: #fff;
+  }
+  
+  .dark-mode #modo-Oscuro i {
+    color: #fff;
+  }
+  
+  .selector-botones {
+    display: flex;
+    background-color: #eff1f2;
+    border-radius: 20px;
+    position: relative;
+    width: 80px;
+    height: 40px;
+  }
+  
+  .opcion {
+    padding: 0px 8px;
+    color: #d2d7d8;
+    z-index: 200;
+    cursor: pointer;
+  }
+  
+  .opcion.active {
+    background-color: #fff;
+    box-shadow: #c2c2c2 1px 1px 5px;
+    border-radius: 20px;
+  }
+  
+  #opcion-activa {
+    background-color: #fff;
+    box-shadow: #c2c2c2 1px 1px 5px;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 45px;
+    height: 40px;
+    transition: transform .3s ease-in-out;
+  }
+
+  .btn-usuario.active {
+    color: #76cdff;
+  }
+  
+  .fas {
+    font-size: 25px;
+  }
+  
